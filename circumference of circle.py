@@ -1,10 +1,6 @@
 # Python Program - Calculate Circumference of Circle
 
-print("Enter 'x' for exit.");
-rad = input("Enter radius of circle: ");
-if rad == 'x':
-    exit();
-else:
-    radius = float(rad);
-    circumference = 2*3.14*radius;
-    print("\nCircumference of Circle =",circumference);
+pi = 3.142
+rad =float(input("Enter radius of circle: "))
+circumference = 2*pi*rad
+print("Circumference of Circle = ",circumference)
